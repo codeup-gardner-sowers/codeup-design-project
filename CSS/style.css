@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 section{
-    font-family: "Anton";
+    font-family: "Anton", sans-serif;
     border-bottom: 1px solid grey;
 }
 section h1{
@@ -43,8 +43,37 @@ span{
     width: 95px;
     border: 5px solid;
 }
+
+.circle2 {
+    color: #000;
+    border-radius: 999px;
+    height: 18px;
+    width: 18px;
+    font-family: "Anton",sans-serif;
+}
+
 * {
     background-color: #E6E6E6;
+}
+
+main {
+    width: 65%;
+}
+
+.card {
+    border: none;
+    padding: unset;
+}
+
+.card-img-top {
+    border: 5px solid lightgray;
+    height: 195px;
+    width: 288px;
+}
+
+.card-text {
+    font-size: 10px;
+    font-family: "Abel", sans-serif;
 }
 
 @media screen and (max-width: 769px){
@@ -52,3 +81,5 @@ a.navbar-brand {
      display: none;
  }
 }
+
+
