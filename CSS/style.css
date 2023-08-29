@@ -179,6 +179,16 @@ main {
         align-items: center;
         justify-content: center;
     }
+    img.card-img-top {
+        width: 400px;
+        object-fit: cover;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-body{
+        width: 400px;
+    }
 }
 
 
