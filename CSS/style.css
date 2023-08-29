@@ -116,14 +116,32 @@ aside img{
         object-fit: contain;
     }
 }
-
+@media screen and (min-width: 1199px) {
+    .nav-link {
+        font-size: 13px;
+    }
+    section h1{
+        font-size: 55px;
+    }
+    section h3{
+        font-size: 40px;
+    }
+    div.card {
+        width: 350px;
+        height: 275px;
+    }
+    img.card-img-top {
+        width: 350px;
+        height: 275px;
+        object-fit: contain;
+    }
+}
 @media screen and (max-width: 769px){
 a.navbar-brand {
     display: none;
 }
 main {
     flex-grow: 1;
-    gap: 15px;
 }
     h6 {
      margin: unset;
