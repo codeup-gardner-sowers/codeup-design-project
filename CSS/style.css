@@ -107,8 +107,8 @@ aside img{
         font-size: 40px;
     }
     div.card {
-        width: 240px;
-        height: 175px;
+        max-width: 240px;
+        max-height: 175px;
     }
     img.card-img-top {
         width: 240px;
@@ -119,8 +119,66 @@ aside img{
 
 @media screen and (max-width: 769px){
 a.navbar-brand {
-     display: none;
- }
+    display: none;
+}
+main {
+    flex-grow: 1;
+    gap: 15px;
+}
+    h6 {
+     margin: unset;
+        margin-bottom: 10px;
+    }
+    card {
+        height: 150px;
+        width: 240px;
+    }
+
+    img.card-img-top {
+        width: 240px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .navbar-toggler{
+        width: 50px;
+        height: 30px;
+        position:absolute;
+        right: 10px;
+        top: 15px;
+    }
+    button.navbar-toggler{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header.row{
+        flex-grow: unset;
+    }
+}
+@media screen and (max-width: 577px){
+    section h1{
+        font-size: 70px;
+    }
+    section h3{
+        font-size: 45px;
+    }
+    .duke{
+        width: 270px;
+        display: flex;
+        height: 238px;
+    }
+    section.container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-bottom: unset;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
