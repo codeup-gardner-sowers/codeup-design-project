@@ -96,7 +96,7 @@ aside img{
     font-family: "Abel", sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .nav-link {
         font-size: 13px;
     }
@@ -107,8 +107,8 @@ aside img{
         font-size: 40px;
     }
     div.card {
-        max-width: 240px;
-        max-height: 175px;
+        width: 240px;
+        height: 175px;
     }
     img.card-img-top {
         width: 240px;
@@ -129,7 +129,7 @@ main {
      margin: unset;
         margin-bottom: 10px;
     }
-    card {
+    .card {
         height: 150px;
         width: 240px;
     }
@@ -180,14 +180,15 @@ main {
         justify-content: center;
     }
     img.card-img-top {
-        width: 400px;
+        width: 100%;
         object-fit: cover;
     }
     .card{
-        width: 100%;
+        width: 90%;
+        height: 192px;
     }
     .card-body{
-        width: 400px;
+        width: 100%;
     }
 }
 
